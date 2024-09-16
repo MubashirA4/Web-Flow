@@ -1,0 +1,169 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  .logo {
+    img {
+      width: 180px;
+      height: 54px;
+    }
+  }
+  nav {
+    display: flex;
+    ul {
+      margin-right: 60px;
+      /* list-style-type: none; */
+      li {
+        display: inline-block;
+        padding: 18px 24px;
+        a {
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 28.8px;
+          color: rgba(35, 22, 86, 1);
+        }
+      }
+    }
+  }
+  .signin {
+    padding: 18px 20px;
+    a {
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28.8px;
+      background: rgba(35, 22, 86, 1);
+      color: rgba(255, 255, 255, 1);
+      padding: 15px 25px;
+      border-radius: 30px;
+    }
+  }
+}
+footer {
+  background: rgba(245, 245, 245, 1);
+  padding: 220px 0px 50px 0px;
+  position: relative;
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .primepay {
+      img {
+        width: 187px;
+        height: 57px;
+        margin-bottom: 24px;
+      }
+      p {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        color: rgba(78, 78, 78, 1);
+      }
+      .icons {
+        display: flex;
+        gap: 20px;
+        padding: 25px 0px;
+        color: rgba(35, 22, 86, 1);
+      }
+    }
+    .menu {
+      margin-left: 80px;
+      &::before {
+        content: "";
+        border-left: 1px solid rgba(196, 196, 196, 1);
+        height: 80%;
+        position: absolute;
+        left: -60px;
+      }
+    }
+    .menu,
+    .u-page,
+    .address {
+      h4 {
+        font-family: Jost;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30.36px;
+        color: rgba(61, 50, 105, 1);
+        margin-bottom: 16px;
+      }
+      a {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400; 
+        line-height: 39.7px;
+        text-align: left;
+        color: rgba(78, 78, 78, 1);
+      }
+      button {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+        background: rgba(98, 95, 251, 1);
+        padding: 10px 25px;
+        border: none;
+        border-radius: 30px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .rectangle{
+    background: url("../assets//Rectangle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 32px;
+    border-radius: 20px;
+    width: 1400px;
+    position: absolute;
+    top: -110px;
+    margin: 0 auto;    
+    h2 {
+      font-family: Jost;
+      font-size: 54px;
+      font-weight: 600;
+      line-height: 55.66px;
+      color: rgba(35, 22, 86, 1);
+      span {
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+    .input{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        padding: 30px;
+        height:min-content;
+        input {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 39.7px;
+          text-align: left;
+          color: rgba(78, 78, 78, 1);
+          background: rgba(255, 255, 255, 1);
+          border: none;
+          border-radius: 72px;
+          padding: 8px 76px 8px 24px;
+        }
+        button {
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28.8px;
+          color: rgba(255, 255, 255, 1);
+          background: rgba(35, 22, 86, 1);
+          padding: 8px 30px;
+          border: none;
+          border-radius: 72px;
+        }
+    }
+  }
+}
