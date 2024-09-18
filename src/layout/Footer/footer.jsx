@@ -13,18 +13,19 @@ const Footer = () => {
     <>
       <footer>
         <main>
-          <div className="links">
+          <div className="container-fluid">
             <div className="primepay">
               <Link to="/"><img src={Logo} alt="" /></Link>
               <p>Lorem ipsum dolor sitonsecteturadipisicing elit sed do eiusmod temporincididunt Laoreet non sagittis aliquam bibendum.</p>
               <div className="icons">
-                <FaInstagram size={22} />
-                <FaFacebook size={22} />
-                <FaTwitter size={22} />
-                <FaLinkedin size={22} />
-                <FaYoutube size={22} />
+                <Link to="/"><FaInstagram size={22} /></Link>
+                <Link to="/"><FaFacebook size={22} /></Link>
+                <Link to="/"><FaTwitter size={22} /></Link>
+                <Link to="/"><FaLinkedin size={22} /></Link>
+                <Link to="/"><FaYoutube size={22} /></Link>
               </div>
             </div>
+
             <div className="menu">
               <h4>Menu</h4>
               <li><Link to="/">About</Link></li>
@@ -46,7 +47,9 @@ const Footer = () => {
               <li><Link to="/">1700 W Blancke St, kiyev port south USA, America</Link></li>
               <li><Link to="/">+3255 456 789</Link></li>
               <li><Link to="/">mail@primpay.com</Link></li>
-              <button>GET A QUOTE</button>
+              <div className="quote">
+                <Link to="/">GET A QUOTE</Link>
+              </div>
             </div>
           </div>
 
@@ -55,7 +58,7 @@ const Footer = () => {
               <h2>Take control of your <br />
                 personal <span>finances today</span></h2>
               <div className="input">
-                <input type="text" placeholder='Enter your email' />
+                <input type="email" placeholder='Enter your email' />
                 <button>Subscribe</button>
               </div>
             </div>
