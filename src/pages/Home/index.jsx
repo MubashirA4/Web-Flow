@@ -3,6 +3,7 @@ import Landing from './features/landing'
 import { About } from './features/about'
 import Choose from './features/choose'
 import Testimonials from './features/testimonials'
+import Mood from './features/mood'
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <About />
       <Choose />
       <Testimonials />
+      <Mood />
     </div>
   )
 }
