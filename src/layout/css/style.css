@@ -40,6 +40,7 @@ header {
     }
   }
 }
+
 footer {
   main {
     position: relative;
@@ -137,6 +138,7 @@ footer {
         width: 1400px;
         position: absolute;
         top: -110px;
+        z-index: 1;
       }
       h2 {
         font-family: Jost;

@@ -64,7 +64,8 @@
     gap: 40px;
     background: rgba(245, 245, 245, 1);
     margin: 50px 0px 120px 0px;
-    padding: 350px 150px 100px 150px;
+    padding: 350px 130px 100px 130px;
+    border-radius: 20px;
     .c-account{
         img{
             display: block;
@@ -72,7 +73,7 @@
             /* margin-bottom: 10px; */
         }
         h4{
-            font-family: Jost;
+            font-family: Jost; 
             font-size: 24px;
             font-weight: 500;
             line-height: 39.96px;
