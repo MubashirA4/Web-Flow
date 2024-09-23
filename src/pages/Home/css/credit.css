@@ -1,0 +1,131 @@
+.credit {
+  background-color: rgba(48, 48, 48, 1);
+  color: white;
+  margin-bottom: 10vh;
+  .inner-credit {
+    max-width: 1240px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0px;
+    .content {
+      h2 {
+        font: 600 55px/55.66px Jost;
+        color: rgba(140, 140, 140, 1);
+        span {
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+      p {
+        font: 400 20px/32px Open Sans;
+        color: rgba(255, 255, 255, 1);
+      }
+      .checks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        p {
+          line-height: 49.9px;
+          .mark {
+            color: rgba(255, 181, 69, 1);
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .image {
+    img {
+      width: 500px;
+      height: 100%;
+      box-shadow: none;
+    }
+    .parent {
+      position: relative;
+      .child {
+        position: absolute;
+        top: 90px;
+        left: 80px;
+      }
+    }
+  }
+}
+.payment {
+  max-width: 1240px;
+  margin: 0px auto;
+  margin-bottom: 20vh;
+  h2 {
+    font-family: Jost;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 55.66px;
+    text-align: center;
+    color: rgba(181, 181, 181, 1);
+    span {
+      color: rgba(35, 22, 86, 1);
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+    .card {
+      border-radius: 30px;
+      background-color: rgba(242, 242, 242, 1);
+      padding: 20px 40px;
+      img {
+        width: 100%;
+        margin: 20px 0px;
+      }
+      .image{
+        img{
+          width: 100%;
+          margin-top: 0px;
+        }
+      }
+      .content {
+        /* padding: 0px 60px; */
+        .price {
+          display: flex;
+          justify-content: space-between;
+          h6 {
+            font: 500 35px/35.42px Jost;
+            color: rgba(61, 50, 105, 1);
+          }
+          p {
+            font: 500 20px/20.24px Jost;
+            color: rgba(61, 50, 105, 1);
+          }
+        }
+        .features {
+          background-color: rgba(255, 255, 255, 1);
+          padding: 5px 26px;
+          margin-top: 20px;
+          border-radius: 10px;
+          li {
+            font: 400 20px/52.6px Open Sans;
+            color: rgba(78, 78, 78, 1);
+          }
+        }
+        .button{
+          margin-top: 30px;
+          margin-bottom: 14px;
+          a {
+          font: 600 18px/28.8px Inter;
+          color: rgba(35, 22, 86, 1);
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          padding: 18px 0px;
+          border-radius: 100px;
+          background-color: rgba(215, 215, 215, 1);
+          &:hover {
+            color: white;
+            background: rgba(35, 22, 86, 1);
+          }
+        }
+        }
+      }
+    }
+  }
+}
