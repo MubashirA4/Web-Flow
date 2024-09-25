@@ -5,7 +5,7 @@ import Mobile from '../assets/mobile screen.svg'
 import Account from '../assets/account.svg' 
 import Bank from '../assets/bank.svg'
 import Money from '../assets/cash.svg'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' 
 
 const Landing = () => {
   return (

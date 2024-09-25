@@ -11,14 +11,14 @@ const Header = () => {
                 </div>
                 <nav>
                     <ul>
-                        <li><Link to="/">About Us </Link></li>
-                        <li><Link to="/">Features</Link></li>
-                        <li><Link to="/">Pricing</Link></li>
-                        <li><Link to="/">Blog</Link></li>
+                        <li><Link to="/about_us">About Us </Link></li>
+                        <li><Link to="/features">Features</Link></li>
+                        <li><Link to="/pricing">Pricing</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
                     </ul>
                 </nav>
                 <div className="signin">
-                    <Link>LOGIN</Link>
+                    <Link to="login">LOGIN</Link>
                 </div>
             </header>
         </div>
