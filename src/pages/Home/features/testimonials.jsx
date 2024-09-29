@@ -116,5 +116,15 @@ const Testimonials = () => {
         </div>
     )
 }
-
+    export const ProfileDetails = ({ image, name, profession }) => {
+        return (
+          <div className="profile-details">
+            <img src={image} alt={name} />
+            <div className="profile-text">
+              <h4>{name}</h4>
+              <p>{profession}</p>
+            </div>
+          </div>
+        ); 
+}
 export default Testimonials
