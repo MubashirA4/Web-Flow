@@ -1,5 +1,7 @@
 .banner {
   margin-bottom: 20vh;
+  max-width: 1600px;
+  margin: 0px auto;
   .inner-banner{
     position: relative;
     margin-bottom: 50px;
@@ -18,8 +20,7 @@
     }
   }
   .article{
-    max-width: 1240px;
-    margin: 0px auto;
+    margin-bottom: 10vh;
       .head{
           display: flex;
           justify-content: space-between;
@@ -51,9 +52,101 @@
                 color: rgba(255, 255, 255, 1);
                 background-color: rgba(35, 22, 86, 1);
                 border-radius: 50px;
-                padding: 26px;
+                padding: 10px 20px;
             }
         }
+    }
+    .content{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 90px;
+      .aside{
+        img{
+          width: 100%;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+        .left-content{
+          padding: 20px 20px;
+          .link{
+            display: flex;
+            justify-content: center;
+            a{
+              font: 400 20px/32px Inter;
+              color: rgba(125, 95, 255, 1);
+              background: rgba(229, 223, 244, 1);
+              padding: 6px 18px;
+              border-radius: 20px;
+              margin-top: 30px;
+              margin-bottom: 10px;
+            }
+          }
+          h4{
+            font: 500 35px/50.58px Jost;
+            color: rgba(61, 50, 105, 1);
+            text-align: center;
+            border-bottom: 1px dashed rgba(204, 204, 204, 1);
+            padding-bottom: 10px;
+          }
+          footer{
+            ul{
+              display: flex;
+              justify-content: center;
+              font: 400 20px/27.24px Open Sans;
+              color: rgba(61, 50, 105, 1);
+              text-align: center;
+              margin-top: 20px;
+              li{
+                list-style-type: disc;
+                margin-left: 36px;
+              }
+            }
+          }
+        }
+      }
+      .right{
+        section{
+          display: flex;
+          margin-bottom: 20px;
+          img{
+            width: 230px;
+            height: 100%;
+          }
+          .right-content{
+            margin-left: 30px;
+            .link{
+              margin-top: 14px;
+              a{
+                font: 400 20px/32px Inter;
+                color: rgba(125, 95, 255, 1);
+                background: rgba(229, 223, 244, 1);
+                padding: 6px 18px;
+                border-radius: 20px;
+              }
+            }
+            h4{
+              font: 500 30px/43.58px Jost;
+              color: rgba(61, 50, 105, 1);
+              border-bottom: 1px dashed rgba(204, 204, 204, 1);
+              padding-bottom: 10px;
+              margin: 18px 0px;
+            }
+            footer{
+              ul{
+                display: flex;
+                font: 400 20px/27.24px Open Sans;
+                color: rgba(61, 50, 105, 1);
+                margin-top: 10px;
+                li{
+                  list-style-type: disc;
+                  margin-left: 36px;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

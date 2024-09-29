@@ -1,10 +1,12 @@
 import React from 'react'
 import Banner from './pages/banner'
+import News from './pages/news'
 
 const Blog = () => {
   return (
-    <div>
+    <div className='blog'>
       <Banner/>
+      <News />
     </div>
   )
 }
