@@ -4,7 +4,7 @@
   .inner-testimonials {
     background-image: url("../assets/testimonials/testimonial.png");
     width: 100%;
-    height: 165vh;
+    height:100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -99,10 +99,10 @@
       border-radius: 20px;
     }
     .ratings {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
       .rating1 {
         h2 {
           font-family: Jost;

@@ -91,22 +91,22 @@ const Testimonials = () => {
                         <div className="rating1">
                             <h2>4.5/5</h2>
                             <div className="stars">
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
                             </div>
                             <p>On the iOS App Store</p>
                         </div>
                         <div className="rating1">
                             <h2>4.8/5</h2>
                             <div className="stars">
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
-                                    <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
+                                <FaStar className='star' size={30} />
                             </div>
                             <p>On the Android Play Store.</p>
                         </div>
@@ -116,15 +116,15 @@ const Testimonials = () => {
         </div>
     )
 }
-    export const ProfileDetails = ({ image, name, profession }) => {
-        return (
-          <div className="profile-details">
+export const ProfileDetails = ({ image, name, profession }) => {
+    return (
+        <div className="profile-details">
             <img src={image} alt={name} />
             <div className="profile-text">
-              <h4>{name}</h4>
-              <p>{profession}</p>
+                <h4>{name}</h4>
+                <p>{profession}</p>
             </div>
-          </div>
-        ); 
+        </div>
+    );
 }
 export default Testimonials
