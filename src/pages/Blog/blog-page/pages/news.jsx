@@ -1,9 +1,9 @@
 import React from 'react'
-import '../css/news.css'
-import Orange from '../assets/latest news/blue-orange.png'
-import Social from '../assets/latest news/social-apps.png'
-import Camera from '../assets/latest news/camera.png'
-import Cup from '../assets/latest news/cup.png'
+
+
+
+
+
 import { Link } from 'react-router-dom'
 
 
@@ -14,7 +14,7 @@ const News = () => {
                 <h2>Latest <span>News</span></h2>
                 <div className="cards">
                     <div className="card">
-                        <img src={Orange} alt="" />
+                        <img src="/assets/blue-orange.png" alt="" />
                         <div className="content">
                             <div className="link">
                                 <Link to="/">Designing</Link>
@@ -30,7 +30,7 @@ const News = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={Social} alt="" />
+                        <img src="/assets/social-apps.png" alt="" />
                         <div className="content">
                             <div className="link">
                                 <Link to="/">Development</Link>
@@ -46,7 +46,7 @@ const News = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={Camera} alt="" />
+                        <img src="/assets/camera.png" alt="" />
                         <div className="content">
                             <div className="link">
                                 <Link to="/">Designing</Link>
@@ -62,7 +62,7 @@ const News = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={Cup} alt="" />
+                        <img src="/assets/cup.png" alt="" />
                         <div className="content">
                             <div className="link">
                                 <Link to="/">Development</Link>

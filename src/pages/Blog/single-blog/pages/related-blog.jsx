@@ -1,7 +1,7 @@
 import React from 'react'
-import '../css/related.css'
-import Orange from '../assets/Orange.png'
-import Image from '../assets/Fruit.png'
+
+
+
 import { Link } from 'react-router-dom'
 
 const RelatedBlog = () => {
@@ -10,7 +10,7 @@ const RelatedBlog = () => {
             <h2>Related <span>Blog</span></h2>
             <div className="cards">
                 <div className="card">
-                    <img src={Orange} alt="" />
+                    <img src="/assets/Orange.png" alt="" />
                     <div className="content">
                         <div className="link">
                             <Link to="/">Development</Link>
@@ -26,7 +26,7 @@ const RelatedBlog = () => {
                     </div>
                 </div>
                 <div className="card">
-                    <img src={Image} alt="" />
+                    <img src="/assets/Fruit.png" alt="" />
                     <div className="content">
                         <div className="link">
                             <Link to="/">Development</Link>

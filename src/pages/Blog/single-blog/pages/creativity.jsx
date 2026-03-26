@@ -1,6 +1,6 @@
 import React from 'react'
-import '../css/creativity.css'
-import Nattasha from '../assets/natasha.png'
+
+
 import { FaInstagram } from "react-icons/fa6";
 import { IoLogoFacebook } from "react-icons/io5";
 import { IoLogoTwitter } from "react-icons/io5";
@@ -33,7 +33,7 @@ const Creativity = () => {
             <div className="card">
                 <div className="intro">
                     <div className="profile">
-                        <img src={Nattasha} alt="" />
+                        <img src="/assets/natasha.png" alt="" />
                         <div className="content">
                             <h4>Nattasha</h4>
                             <p>Designer</p>

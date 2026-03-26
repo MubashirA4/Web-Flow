@@ -1,8 +1,8 @@
 import React from 'react'
-import '../css/singleblog.css'
+
 import { Link } from 'react-router-dom';
-import Image from '../assets/banner.png'
-import Nattasha from '../assets/natasha.png'
+
+
 import { FaInstagram } from "react-icons/fa6";
 import { IoLogoFacebook } from "react-icons/io5";
 import { IoLogoTwitter } from "react-icons/io5";
@@ -26,10 +26,10 @@ const Header = () => {
                     </div>
                 </header>
                 <div className="banner">
-                    <img src={Image} alt="" />
+                    <img src="/assets/banner.png" alt="" />
                     <div className="banner-inner">
                         <div className="profile">
-                            <img src={Nattasha} alt="" />
+                            <img src="/assets/natasha.png" alt="" />
                             <div className="content">
                                 <h4>Nattasha</h4>
                                 <p>Designer</p>
