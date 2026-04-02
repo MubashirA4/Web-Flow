@@ -1,3 +1,4 @@
+import logoImg from '../../assets/images/Logo.png';
 import React from 'react'
 
 import { Link } from 'react-router-dom'
@@ -8,7 +9,7 @@ const Header = () => {
             <header className="max-w-7xl mx-auto backdrop-blur-md bg-fintech-800/60 border border-white/5 shadow-2xl shadow-fintech-900/50 rounded-2xl flex items-center justify-between px-8 py-4 transition-all duration-300">
                 <div className="flex items-center space-x-2">
                     <Link to="/" className="flex items-center group">
-                        <img src="/assets/Logo.png" alt="PrimePay Logo" className="h-8 md:h-10 w-auto transform group-hover:scale-105 transition-transform duration-300" />
+                        <img src={logoImg} alt="PrimePay Logo" className="h-8 md:h-10 w-auto transform group-hover:scale-105 transition-transform duration-300" />
                     </Link>
                 </div>
                 

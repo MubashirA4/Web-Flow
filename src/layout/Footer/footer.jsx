@@ -1,3 +1,4 @@
+import logoImg from '../../assets/images/Logo.png';
 import React from 'react'
 import { FaInstagram, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
@@ -34,7 +35,7 @@ const Footer = () => {
             
             <div className="flex flex-col gap-6">
               <Link to="/" className="flex items-center group mb-2">
-                  <img src="/assets/Logo.png" alt="PrimePay Logo" className="h-10 w-auto transform group-hover:scale-105 transition-transform duration-300" />
+                  <img src={logoImg} alt="PrimePay Logo" className="h-10 w-auto transform group-hover:scale-105 transition-transform duration-300" />
               </Link>
               <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
                 Empowering businesses globally with frictionless payments and enterprise-grade security. Scale your revenue without scaling your headaches.
